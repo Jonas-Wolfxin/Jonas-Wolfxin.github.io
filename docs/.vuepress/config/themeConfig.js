@@ -1,7 +1,6 @@
 const nav = require("../common/nav.js");
 const footer = require("../common/footer.js");
 const htmlModules = require("./htmlModules.js");
-const vssueModules = require("../theme.BAK/index.js")
 const {
   readFileList,
   readTotalFileWords,
@@ -15,7 +14,8 @@ module.exports = {
   nav, // 导航栏
   sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
   logo: "/img/index/logo.png", // 导航栏logo
-  repo: "Kele-Bingtang/Kele-Bingtang.github.io", // 导航栏右侧生成Github链接
+  // repo: "Kele-Bingtang/Kele-Bingtang.github.io", // 导航栏右侧生成Github链接
+  repo: "Jonas-Wolfxin/Jonas-Wolfxin.github.io", // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
   lastUpdated: "更新时间", // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   docsDir: "docs", // 指定根目录
@@ -166,7 +166,6 @@ module.exports = {
       },
     ],
   },
-  vssueModules,
   footer,
   // htmlModules // 插入hmtl模块
 

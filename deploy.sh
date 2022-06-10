@@ -16,10 +16,9 @@ cd docs/.vuepress/dist
 if [ -z "$GITHUB_TOKEN" ]; then
   msg='deploy 脚本部署'
   githubUrl=git@github.com:Jonas-Wolfxin/Jonas-Wolfxin.github.io.git
-  
 else
   msg='来自 Github actions 的自动部署'
-  githubUrl=https://Kele-Bingtang:${GITHUB_TOKEN}@github.com/Kele-Bingtang/Kele-Bingtang.github.io.git
+  githubUrl=https://Jonas-Wolfxin:${GITHUB_TOKEN}@github.com/Jonas-Wolfxin/Jonas-Wolfxin.github.io.git
   git config --global user.name "Jonas-Wolfxin"
   git config --global user.email "wolfxin@outlook.com"
 fi
@@ -41,7 +40,7 @@ git push -f $githubUrl master:gh-pages # 推送到 Github gh-pages 分支
 # fi
 # git add -A
 # git commit -m "${msg}"
-# git push -f $codingUrl master # 推送到coding
+# git push -f $codingUrl master # 推送到coding  git push -f git@github.com:Jonas-Wolfxin/Jonas-Wolfxin.github.io.git main 
 
 # 退回开始所在目录
 cd - 
