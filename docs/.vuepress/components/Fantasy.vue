@@ -508,8 +508,8 @@ export default {
         ctx.drawImage(light, 971, 197);
         ctx.globalCompositeOperation = "source-over";
 
-        ctx.drawImage(caidai, 949, 25);
-        ctx.drawImage(two, 1319, 345);
+        ctx.drawImage(caidai, 949, 20);
+        ctx.drawImage(two, 1340, 400);
 
         // 夜间光照
         if (night && lightColor.a < 0.7) {

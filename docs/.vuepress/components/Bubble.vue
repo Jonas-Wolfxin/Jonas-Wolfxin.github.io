@@ -51,7 +51,7 @@ export default {
       // 参数设置
       function can() {
         let x = Math.random() * width;
-        let r = Math.random() * 5 + 10;
+        let r = Math.random() * 5 + 20;
         let y = height + 2 * r + Math.random() * 10;
         let s = Math.random() * 1 + 1;
         return {
