@@ -2,7 +2,7 @@
 home: true
 # heroImage: /img/web.png
 heroText: Jonas 林风's Blog
-tagline: 故事由我书写，旅程由你见证，传奇由她聆听。
+tagline: 吾志所向，万夫不当；披荆斩棘，奋而继往。
 
 pageClass: vdoing-index-class
 

@@ -1,6 +1,6 @@
 // 数据库导航栏
 module.exports = {
-  text: '数据库', link: '/database/',
+  text: 'Database', link: '/database/',
   items: [
     {
       text: 'SQL 数据库',

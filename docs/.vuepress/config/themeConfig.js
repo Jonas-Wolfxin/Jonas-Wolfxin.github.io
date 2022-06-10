@@ -17,7 +17,7 @@ module.exports = {
   // repo: "Kele-Bingtang/Kele-Bingtang.github.io", // 导航栏右侧生成Github链接
   repo: "Jonas-Wolfxin/Jonas-Wolfxin.github.io", // 导航栏右侧生成Github链接
   searchMaxSuggestions: 10, // 搜索结果显示最大数
-  lastUpdated: "更新时间", // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
+  lastUpdated: "last Updated", // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   docsDir: "docs", // 指定根目录
   editLinks: true, // 启用编辑
   editLinkText: "编辑此页",

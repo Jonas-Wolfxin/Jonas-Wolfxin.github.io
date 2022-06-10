@@ -1,12 +1,12 @@
 // 前端导航
 module.exports = {
-  text: '前端', link: '/front/',
+  text: 'Front End', link: '/front/',
   items: [
     {
-      text: '基础',
+      text: 'Basics',
       items: [
-        { text: 'Html', link: '/html/' },
-        { text: 'css', link: '/css/' },
+        { text: 'HTML', link: '/html/' },
+        { text: 'CSS', link: '/css/' },
         { text: 'JavaScript', link: '/javascript/' },
       ]
     },
@@ -18,7 +18,7 @@ module.exports = {
     //   ]
     // },
     {
-      text: '框架',
+      text: 'Frame',
       items: [
         { text: 'React', link: '/react/' },
         { text: 'Vue2', link: '/vue2/' },

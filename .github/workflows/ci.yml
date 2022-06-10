@@ -2,14 +2,14 @@ name: CI
 
 #on: [push]
 
-# 在 master 分支发生 push 事件时触发。
+# 在 main 分支发生 push 事件时触发。
 on: 
   push:
     branches:
-      - master
+      - main
 
 env: # 设置环境变量
-  TZ: Asia/Shanghai # 时区（设置时区可使页面中的 最近更新时间 使用时区时间）
+  TZ: Europe/Berlin # 时区（设置时区可使页面中的 最近更新时间 使用时区时间）
 
 jobs: # 工作流
   build: # 自定义名称

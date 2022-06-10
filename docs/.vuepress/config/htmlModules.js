@@ -19,57 +19,58 @@
  */
 
 module.exports = {
-  homeSidebarB:
-    `<div style="padding: 0.95rem; font-size: 0.875rem;">
-      <div style="text-align: center; color: #888; font-weight: bold; padding: 0 0 10px 0;">
-        <i class="iconfont icon-award" style="font-size: 0.875rem; font-weight: 900;width: 1.25em;"></i>
-        <span>站点信息</span>
-      </div>
-      <div class="webinfo-item" style="padding: 8px 0 0; margin: 0;">
-        <div style="display: inline-block;">
-          文章数目：
-        </div>
-        <div style="display: inline-block; float: right;">
-          13 篇
-        </div>
-      </div>
+  // homeSidebarB:
+  //   `<div style="padding: 0.95rem; font-size: 0.875rem;">
+  //     <div style="text-align: center; color: #888; font-weight: bold; padding: 0 0 10px 0;">
+  //       <i class="iconfont icon-award" style="font-size: 0.875rem; font-weight: 900;width: 1.25em;"></i>
+  //       <span>站点信息</span>
+  //     </div>
+  //     <div class="webinfo-item" style="padding: 8px 0 0; margin: 0;">
+  //       <div style="display: inline-block;">
+  //         文章数目：
+  //       </div>
+  //       <div style="display: inline-block; float: right;">
+  //         13 篇
+  //       </div>
+  //     </div>
 
-      <div class="webinfo-item" style="padding: 8px 0 0; margin: 0;">
-        <div style="display: inline-block;">
-          已运行时间：
-        </div>
-        <div style="display: inline-block; float: right;">
-          189 天
-        </div>
-      </div>
+  //     <div class="webinfo-item" style="padding: 8px 0 0; margin: 0;">
+  //       <div style="display: inline-block;">
+  //         已运行时间：
+  //       </div>
+  //       <div style="display: inline-block; float: right;">
+  //         189 天
+  //       </div>
+  //     </div>
 
-      <div class="webinfo-item" style="padding: 8px 0 0; margin: 0;">
-        <div style="display: inline-block;">
-          本站总字数：
-        </div>
-        <div style="display: inline-block; float: right;">
-          45.5k 字
-        </div>
-      </div>
+  //     <div class="webinfo-item" style="padding: 8px 0 0; margin: 0;">
+  //       <div style="display: inline-block;">
+  //         本站总字数：
+  //       </div>
+  //       <div style="display: inline-block; float: right;">
+  //         45.5k 字
+  //       </div>
+  //     </div>
 
-      <div class="webinfo-item" style="padding: 8px 0 0; margin: 0;">
-        <div style="display: inline-block;">
-          本站被访问了：
-        </div>
-        <div style="display: inline-block; float: right;">
-          1202 次
-        </div>
-      </div>
+  //     <div class="webinfo-item" style="padding: 8px 0 0; margin: 0;">
+  //       <div style="display: inline-block;">
+  //         本站被访问了：
+  //       </div>
+  //       <div style="display: inline-block; float: right;">
+  //         1202 次
+  //       </div>
+  //     </div>
 
-      <div class="webinfo-item" style="padding: 8px 0 0; margin: 0;">
-        <div style="display: inline-block;">
-          最后活动时间：
-        </div>
-        <div style="display: inline-block; float: right;">
-          2 天前
-        </div>
-      </div>
-    </div>`,
+  //     <div class="webinfo-item" style="padding: 8px 0 0; margin: 0;">
+  //       <div style="display: inline-block;">
+  //         最后活动时间：
+  //       </div>
+  //       <div style="display: inline-block; float: right;">
+  //         2 天前
+  //       </div>
+  //     </div>
+  //   </div>`,
+
   // `<!-- 纵向自适应 -->
   // <ins class="adsbygoogle"
   //     style="display:block;padding: 0.95rem;"
@@ -89,27 +90,30 @@ module.exports = {
   //     <script>
   //         (adsbygoogle = window.adsbygoogle || []).push({});
   //     </script>`,
-  sidebarB:
-    `<!-- 正方形 -->
-      <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-7828333725993554"
-          data-ad-slot="3508773082"
-          data-ad-format="auto"
-          data-full-width-responsive="true"></ins>
-      <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>`,
-  pageT:
-    `<!-- 固定100% * 90px可显示，max-height:90px未见显示-->
-     <ins class="adsbygoogle"
-          style="display:inline-block;width:100%;max-height:90px"
-          data-ad-client="ca-pub-7828333725993554"
-          data-ad-slot="6625304284"></ins>
-      <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>`,
+
+  // sidebarB:
+  //   `<!-- 正方形 -->
+  //     <ins class="adsbygoogle"
+  //         style="display:block"
+  //         data-ad-client="ca-pub-7828333725993554"
+  //         data-ad-slot="3508773082"
+  //         data-ad-format="auto"
+  //         data-full-width-responsive="true"></ins>
+  //     <script>
+  //         (adsbygoogle = window.adsbygoogle || []).push({});
+  //     </script>`,
+
+  // pageT:
+  //   `<!-- 固定100% * 90px可显示，max-height:90px未见显示-->
+  //    <ins class="adsbygoogle"
+  //         style="display:inline-block;width:100%;max-height:90px"
+  //         data-ad-client="ca-pub-7828333725993554"
+  //         data-ad-slot="6625304284"></ins>
+  //     <script>
+  //         (adsbygoogle = window.adsbygoogle || []).push({});
+  //     </script>`,
   // pageTshowMode: 'article',
+
   pageB:
     `<!-- 横向自适应 -->
       <ins class="adsbygoogle"
@@ -120,7 +124,8 @@ module.exports = {
           data-full-width-responsive="true"></ins>
       <script>
           (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>`,
+      </script>
+      <Vssue />`,
   // pageBshowMode: 'article',
   // windowLB: // 会遮挡部分侧边栏
   //   `<!-- 固定200*200px -->
@@ -132,16 +137,17 @@ module.exports = {
   //     <script>
   //         (adsbygoogle = window.adsbygoogle || []).push({});
   //     </script>`,
-  windowRB:
-    `<!-- 固定160*160px -->
-      <ins class="adsbygoogle"
-          style="display:inline-block;max-width:160px;max-height:160px"
-          data-ad-client="ca-pub-7828333725993554"
-          data-ad-slot="8377369658"></ins>
-      <script>
-          (adsbygoogle = window.adsbygoogle || []).push({});
-      </script>
-      `,
+
+  // windowRB:
+  //   `<!-- 固定160*160px -->
+  //     <ins class="adsbygoogle"
+  //         style="display:inline-block;max-width:160px;max-height:160px"
+  //         data-ad-client="ca-pub-7828333725993554"
+  //         data-ad-slot="8377369658"></ins>
+  //     <script>
+  //         (adsbygoogle = window.adsbygoogle || []).push({});
+  //     </script>
+  //     `,
 }
 
 
