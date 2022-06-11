@@ -514,8 +514,8 @@ export default {
         // 夜间光照
         if (night && lightColor.a < 0.7) {
           lightColor.a += 0.005;
-          lightColor.a = min(lightColor.a, 0.4);
-        } else if (!night) {
+          lightColor.a = min(lightColor.a, 0.7);
+        } else if (!night) {  // 如果是白天的话, 则透明度a每次递减 0.005, 直到完全透明
           lightColor.a -= 0.005;
           lightColor.a = max(lightColor.a, 0.0);
         }
@@ -536,7 +536,7 @@ export default {
         if (lightColor.a > 0) {
           ctx.globalAlpha = lightColor.a / 0.7;
           ctx.drawImage(screenLight, 0, 0);
-          ctx.globalAlpha = 1;
+          ctx.globalAlpha = 0.7;
         }
 
         night = true;
