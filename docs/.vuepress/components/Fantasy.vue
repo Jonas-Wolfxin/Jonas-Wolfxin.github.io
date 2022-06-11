@@ -531,7 +531,7 @@ export default {
           ctx.globalAlpha = 1;
         }
 
-        // 屏幕
+        // 屏幕 
         ctx.drawImage(screenImage, 0, 0);
         if (lightColor.a > 0) {
           ctx.globalAlpha = lightColor.a / 0.7;
