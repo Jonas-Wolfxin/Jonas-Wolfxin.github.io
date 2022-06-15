@@ -11,6 +11,32 @@ module.exports = {
   // description: 'Jonas Wolfxin个人博客, VuePress搭建, 使用了 Vdoing 主题, 学习Java, Web, 框架, 微服务, 工具, 前端等相关知识, 记录生活和技术路程, 同时分享编程技巧。',
   // lang: 'zh-CN',
   // base: '/', // 格式：'/<仓库名>/'， 默认'/'
+  configureWebpack: () => {
+    const NODE_ENV = process.env.NODE_ENV
+    //判断是否是生产环境
+    if(NODE_ENV === 'production'){
+      return {
+        output: {
+          publicPath: 'https://cdn.jsdelivr.net/gh/jonas-wolfxin/jonas-wolfxin.github.io@gh-pages/'
+        },
+        resolve: {
+          //配置路径别名
+          alias: {
+            'public': path.resolve(__dirname, './public') 
+          }
+        }
+      }
+    }else{
+      return {
+        resolve: {
+          //配置路径别名
+          alias: {
+            'public': path.resolve(__dirname, './public') 
+          }
+        }
+      }
+    }
+  },
   markdown: {
     lineNumbers: true, // 显示代码块的行号
     extractHeaders: [ 'h2', 'h3', 'h4' ], // 支持 h2、h3、h4 标题

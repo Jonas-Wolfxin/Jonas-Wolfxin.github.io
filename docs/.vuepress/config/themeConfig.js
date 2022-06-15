@@ -112,7 +112,6 @@ module.exports = {
     descFade: true, // 是否开启图片中间描述的淡入淡出效果，默认为 false
     desc: [
       "我曾七次鄙视自己的灵魂",
-      "—— 纪伯伦",
       "第一次，当它本可进取时，却故作谦卑；",
       "第二次，当它在空虚时，用情欲来填充；",
       "第三次，在困难和容易之间，它选择了容易；",
@@ -123,8 +122,8 @@ module.exports = {
     ], // 多条描述，如果填写则覆盖 index.md 的 tagline，不填写则默认读取 index.md 的 tagline，descFadeIn 为 true 生效
     descFontSize: "1.4rem", // desc 的字体大小，默认 1.4rem。提示：原主题是 1.1rem
     descFadeInTime: 200, // 描述的淡入效果持续时间，descFade 为 true 生效，默认 200 毫秒
-    descFadeOutTime: 2, // 描述的淡出效果持续时间，descFade 为 true 生效，默认 100 毫秒
-    descNextTime: 2000, // 当有多个 desc 时，一个 desc 展示完后或准备开始时，多少时间后出现下一个 desc，默认 800 毫秒
+    descFadeOutTime: 20, // 描述的淡出效果持续时间，descFade 为 true 生效，默认 100 毫秒
+    descNextTime: 800, // 当有多个 desc 时，一个 desc 展示完后或准备开始时，多少时间后出现下一个 desc，默认 800 毫秒
     bubble: true, // 是否开启图片的气泡效果，默认为 false
     bubblePosition: 0, // 气泡效果的位置，范围：0-100，不同数值代表不同的起始位置，0是整个图片，50是半张图（一半的下方）。bubble 为 true 生效。默认是 0
     bubbleNum: 88, // 气泡的个数，bubble 为 true 生效，默认 200 个

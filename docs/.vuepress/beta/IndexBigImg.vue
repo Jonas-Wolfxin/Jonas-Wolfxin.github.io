@@ -529,6 +529,9 @@ function nextAllTipElement(elem) {
 </script>
 
 <style>
+
+
+
 /* 图片大小 */
 .vdoing-index-class .home-wrapper .banner {
   margin-top: 0 !important;
@@ -583,7 +586,7 @@ function nextAllTipElement(elem) {
   height: 20px;
   font-size: 34px;
   text-align: center;
-  animation: bounce-in 5s 3s infinite;
+  animation: bounce-in 3s 1s infinite;
   position: absolute;
   left: 50%;
   bottom: 15%;
@@ -619,8 +622,8 @@ function nextAllTipElement(elem) {
   width: 20px;
   height: 20px;
   display: block;
-  border-right: 3px solid #fff;
-  border-top: 3px solid #fff;
+  border-right: 3px solid #00ffc8;
+  border-top: 3px solid #00ffc8;
   transform: rotate(135deg);
   position: absolute;
   bottom: 10px;
@@ -631,8 +634,8 @@ function nextAllTipElement(elem) {
   width: 20px;
   height: 20px;
   display: block;
-  border-right: 3px solid #fff;
-  border-top: 3px solid #fff;
+  border-right: 3px solid #00ffc8;
+  border-top: 3px solid #00ffc8;
   transform: rotate(135deg);
 }
 

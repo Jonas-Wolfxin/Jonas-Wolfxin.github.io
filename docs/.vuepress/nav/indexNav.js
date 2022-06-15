@@ -1,20 +1,20 @@
 // 索引导航
 module.exports = {
-  text: '索引', link: '/archives/',
+  text: 'About', link: '/archives/',
   items: [
     { 
-      text: '本站',
+      text: 'This Blog',
       items: [
-        { text: '分类', link: '/categories/' },
-        { text: '标签', link: '/tags/' },
-        { text: '归档', link: '/archives/' },
+        { text: 'Categories', link: '/categories/' },
+        { text: 'Tags', link: '/tags/' },
+        { text: 'Archives', link: '/archives/' },
       ]
     },
     {
-      text: '我的',
+      text: 'About Me',
       items: [
-        { text: '收藏', link: '/whell/web/' },
-        { text: '关于', link: '/about/website/introduce/' },
+        { text: 'Collection', link: '/whell/web/' },
+        { text: 'Introduction', link: '/about/website/introduce/' },
       ]
     },
   ]
