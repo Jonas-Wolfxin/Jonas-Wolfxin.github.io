@@ -4,6 +4,7 @@ const databaseNav = require("../nav/databaseNav");
 const pythonNav = require("../nav/pythonNav");
 const toolNav = require("../nav/toolNav");
 const indexNav = require("../nav/indexNav");
+const inGermany = require("../nav/inGermany");
 
 module.exports = [
   {
@@ -17,6 +18,7 @@ module.exports = [
   pythonNav,   // Python 学习
   toolNav,  // 工具导航
   indexNav,   //索引导航
+  inGermany,
   {
     text: 'Message Board', link: '/message-area/'
   },
