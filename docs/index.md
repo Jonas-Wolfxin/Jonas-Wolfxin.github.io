@@ -5,6 +5,7 @@ heroText: Jonas 林风's Blog
 tagline: 吾志所向，万夫不当；披荆斩棘，奋而继往。
 
 pageClass: vdoing-index-class
+comments: false
 
 # actionText: 立刻进入 →
 # actionLink: /web/

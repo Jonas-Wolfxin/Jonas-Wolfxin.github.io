@@ -128,18 +128,36 @@ module.exports = [
     // }
   // ],
 
-  // 评论插件 Vssue
+  // 评论插件 Vssue-v4
+  // [
+  //   '@vssue/vuepress-plugin-vssue', {
+  //     // 设置 `platform` 而不是 `api`
+  //     platform: 'github-v4',
+  //     title: "「Comment」<%- frontmatter.title %>",
+
+
+  //     // 其他的 Vssue 配置
+  //     owner: 'Jonas-Wolfxin',
+  //     repo: 'Jonas-Wolfxin.github.io',
+  //     clientId: '82089e4dc79cd5fcdb4c',
+  //     clientSecret: '92a42f87fe7610950f146b1343a82481b065eab9',
+  //     autoCreateIssue: 'true'
+  //   },
+  // ],
+
+  // vuepress-plugin-vssue-global   https://github.com/u2sb/vuepress-plugin-vssue-global
   [
-    '@vssue/vuepress-plugin-vssue', {
+    'vuepress-plugin-vssue-global', {
       // 设置 `platform` 而不是 `api`
-      platform: 'github-v4',
+      platform: 'github',
+      title: "「Comment」<%- frontmatter.title %>",
 
       // 其他的 Vssue 配置
       owner: 'Jonas-Wolfxin',
       repo: 'Jonas-Wolfxin.github.io',
       clientId: '82089e4dc79cd5fcdb4c',
       clientSecret: '92a42f87fe7610950f146b1343a82481b065eab9',
-      autoCreateIssue: 'true'
+      // autoCreateIssue: 'true'
     },
   ],
   [
