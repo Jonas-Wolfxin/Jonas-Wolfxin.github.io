@@ -62,5 +62,49 @@ body .vuepress-plugin-demo-block__wrapper
 
 // 自定义class
 
+p {
+  margin-block-start: 10px;
+  margin-block-end: 10px;
+}
 
+h5::before{
+  content: "❁";
+  margin-right: 4px;
+}
+h5 {
+  font-size: 1.2rem;
+  font-weight: 650;
+  margin-left: 0;
+  color: #801dae;
+  border-bottom: 1px solid #801dae;
+}
+h6::before{
+  content: "۞";
+  margin-right: 4px;
+}
+h6 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 5px;
+  color: #008905;
+  border-bottom: 1px solid #008905;
+}
 
+img {
+  display: block;
+  margin: 0 auto;
+}
+details {
+    display: block;
+    background-color: #c4ff80;
+    border-radius: 5px;
+    padding: 5px 15px;
+}
+
+pre {
+    display: block;
+    font-family: monospace;
+    white-space: pre;
+    margin: 1em 0px;
+    color: #fff;
+}
