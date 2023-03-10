@@ -14,7 +14,7 @@ module.exports = [
   //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
   // }],
 
-  'vuepress-plugin-baidu-autopush', // 百度自动推送
+  // 'vuepress-plugin-baidu-autopush', // 百度自动推送
 
   // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
   // [
@@ -146,20 +146,20 @@ module.exports = [
   // ],
 
   // vuepress-plugin-vssue-global   https://github.com/u2sb/vuepress-plugin-vssue-global
-  [
-    'vuepress-plugin-vssue-global', {
-      // 设置 `platform` 而不是 `api`
-      platform: 'github',
-      title: "「Comment」<%- frontmatter.title %>",
+  // [
+  //   'vuepress-plugin-vssue-global', {
+  //     // 设置 `platform` 而不是 `api`
+  //     platform: 'github',
+  //     title: "「Comment」<%- frontmatter.title %>",
 
-      // 其他的 Vssue 配置
-      owner: 'Jonas-Wolfxin',
-      repo: 'Jonas-Wolfxin.github.io',
-      clientId: '82089e4dc79cd5fcdb4c',
-      clientSecret: '92a42f87fe7610950f146b1343a82481b065eab9',
-      // autoCreateIssue: 'true'
-    },
-  ],
+  //     // 其他的 Vssue 配置
+  //     owner: 'Jonas-Wolfxin',
+  //     repo: 'Jonas-Wolfxin.github.io',
+  //     clientId: '82089e4dc79cd5fcdb4c',
+  //     clientSecret: '92a42f87fe7610950f146b1343a82481b065eab9',
+  //     autoCreateIssue: 'true'
+  //   },
+  // ],
   [
     '@vuepress/last-updated', // "上次更新"时间格式
     {
