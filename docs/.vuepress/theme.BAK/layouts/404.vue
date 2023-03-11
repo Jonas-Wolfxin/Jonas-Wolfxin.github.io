@@ -3,22 +3,21 @@
     <div class="theme-vdoing-content">
       <span>404</span>
       <blockquote>{{ getMsg() }}</blockquote>
-      <router-link to="/">返回首页</router-link>
+      <router-link to="/">Go Back Home</router-link>
     </div>
   </div>
 </template>
 
 <script>
 const msgs = [
-  `这里什么都没有。`,
-  `我是谁？我在哪？`,
-  `这是一个Four-Oh-Four.`,
-  `看来我们的链接坏掉了~`
+  `There is Nothing here!`,
+  `Oh~Oh~, it's kind of terrible.`,
+  `It seems like the page is lost.`
 ]
 
 export default {
   methods: {
-    getMsg () {
+    getMsg() {
       return msgs[Math.floor(Math.random() * msgs.length)]
     }
   }

@@ -146,20 +146,21 @@ module.exports = [
   // ],
 
   // vuepress-plugin-vssue-global   https://github.com/u2sb/vuepress-plugin-vssue-global
-  // [
-  //   'vuepress-plugin-vssue-global', {
-  //     // 设置 `platform` 而不是 `api`
-  //     platform: 'github',
-  //     title: "「Comment」<%- frontmatter.title %>",
+  [
+    'vuepress-plugin-vssue-global',
+    {
+      platform: 'github',
+      title: "「Comment」<%- frontmatter.title %>",
+      needComments: true,
 
-  //     // 其他的 Vssue 配置
-  //     owner: 'Jonas-Wolfxin',
-  //     repo: 'Jonas-Wolfxin.github.io',
-  //     clientId: '82089e4dc79cd5fcdb4c',
-  //     clientSecret: '92a42f87fe7610950f146b1343a82481b065eab9',
-  //     autoCreateIssue: 'true'
-  //   },
-  // ],
+      // 其他的 Vssue 配置
+      autoCreateIssue: true,
+      clientId: '82089e4dc79cd5fcdb4c',
+      clientSecret: '92a42f87fe7610950f146b1343a82481b065eab9',
+      owner: 'Jonas-Wolfxin',
+      repo: 'Jonas-Wolfxin.github.io',
+    },
+  ],
   [
     '@vuepress/last-updated', // "上次更新"时间格式
     {

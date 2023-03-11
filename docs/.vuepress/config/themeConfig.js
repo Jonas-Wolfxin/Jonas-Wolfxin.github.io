@@ -16,9 +16,10 @@ module.exports = {
   logo: "/img/index/logo.png", // 导航栏logo
   // repo: "Kele-Bingtang/Kele-Bingtang.github.io", // 导航栏右侧生成Github链接
   repo: "Jonas-Wolfxin/Jonas-Wolfxin.github.io", // 导航栏右侧生成Github链接
-  searchMaxSuggestions: 10, // 搜索结果显示最大数
+  searchMaxSuggestions: 15, // 搜索结果显示最大数
   lastUpdated: "last Updated", // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
   docsDir: "docs", // 指定根目录
+  docsBranch: 'main', // 编辑的文件所在分支，默认master。 注意：如果你的分支是main则修改为main
   editLinks: true, // 启用编辑
   editLinkText: "编辑此页",
 
