@@ -36,7 +36,7 @@ jobs: # 工作流
       #   run: npm install && npm run deploy  # 执行 deploy.sh 脚本，位于项目根目录
 
       - name: Push Main To Gitee  # 步骤4：GitHub 内容同步到 Gitee，同步仓库是 master
-        uses: wearerequired/git-mirror-action@main
+        uses: wearerequired/git-mirror-action@master
         env:
           SSH_PRIVATE_KEY: ${{ secrets.GITEE_RSA_PRIVATE_KEY }}
         with:  # 从源到目的地

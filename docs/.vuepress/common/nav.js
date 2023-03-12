@@ -20,6 +20,6 @@ module.exports = [
   indexNav,   //索引导航
   inGermany,
   {
-    text: 'MessageBoard📋', link: '/message-area/'
+    text: 'MessageBoard📋', link: '/message-board/'
   },
 ]
