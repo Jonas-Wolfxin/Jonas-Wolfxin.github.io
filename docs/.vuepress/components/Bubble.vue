@@ -3,10 +3,10 @@
 </template>
 
 <script>
-  let bubbleStyle = 'rgba(0, 0, 0, .5)';
-  let waterNum = 200;
+let bubbleStyle = 'rgba(0, 0, 0, .4)';
+let waterNum = 200;
 export default {
-  mounted(){
+  mounted() {
     setTimeout(() => {
       this.mounteElement();
       this.canvasBubble();
@@ -51,7 +51,7 @@ export default {
       // 参数设置
       function can() {
         let x = Math.random() * width;
-        let r = Math.random() * 5 + 20;
+        let r = Math.random() * 5 + 40;
         let y = height + 2 * r + Math.random() * 10;
         let s = Math.random() * 1 + 1;
         return {
@@ -84,10 +84,10 @@ export default {
         ctx.closePath();
       }
     },
-    mounteElement(){
-     let theme = document.getElementsByClassName("theme-container")[0];
-     let bubble = document.getElementById("bubble");
-     theme.append(bubble);
+    mounteElement() {
+      let theme = document.getElementsByClassName("theme-container")[0];
+      let bubble = document.getElementById("bubble");
+      theme.append(bubble);
     }
   },
 };

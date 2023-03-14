@@ -147,7 +147,7 @@ export default {
         function drawDate(txt, i, j) {
           riliCtx.textAlign = "center";
           riliCtx.fillStyle = "rgb(69,68,84)";
-          riliCtx.font = cardSize / 1.5 + "px Impact";
+          riliCtx.font = cardSize / 1.6 + "px Impact";
           var yOffest = 3;
 
           if ((j == 0 || j == 6) && isNum.test(txt)) {
@@ -447,13 +447,13 @@ export default {
         var time = new Date();
         ctx.fillText(
           (time.getHours() < 10 ? "0" : "") +
-            time.getHours().toString() +
-            ":" +
-            (time.getMinutes() < 10 ? "0" : "") +
-            time.getMinutes() +
-            ":" +
-            (time.getSeconds() < 10 ? "0" : "") +
-            time.getSeconds().toString(),
+          time.getHours().toString() +
+          ":" +
+          (time.getMinutes() < 10 ? "0" : "") +
+          time.getMinutes() +
+          ":" +
+          (time.getSeconds() < 10 ? "0" : "") +
+          time.getSeconds().toString(),
           725,
           318
         );
@@ -512,9 +512,9 @@ export default {
         ctx.drawImage(two, 1340, 400);
 
         // 夜间光照
-        if (night && lightColor.a < 0.7) {
+        if (night && lightColor.a < 0.4) {
           lightColor.a += 0.005;
-          lightColor.a = min(lightColor.a, 0.7);
+          lightColor.a = min(lightColor.a, 0.4);
         } else if (!night) {  // 如果是白天的话, 则透明度a每次递减 0.005, 直到完全透明
           lightColor.a -= 0.005;
           lightColor.a = max(lightColor.a, 0.0);
@@ -608,18 +608,22 @@ export default {
   width: 100%;
   z-index: -9;
 }
+
 .hidden {
   display: none;
 }
+
 #display {
   margin: auto;
 }
+
 /* 图片大小 */
 .vdoing-index-class .home-wrapper .banner {
   margin-top: 0 !important;
   height: 100vh;
   background-attachment: fixed !important;
 }
+
 /* 图片中间的签名和标题位置 */
 .banner-conent {
   margin-top: 23vh !important;
