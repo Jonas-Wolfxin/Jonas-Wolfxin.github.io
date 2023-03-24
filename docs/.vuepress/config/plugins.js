@@ -154,7 +154,6 @@ module.exports = [
       needComments: true,
 
       // 其他的 Vssue 配置
-      autoCreateIssue: true,
       clientId: '82089e4dc79cd5fcdb4c',
       clientSecret: '92a42f87fe7610950f146b1343a82481b065eab9',
       owner: 'Jonas-Wolfxin',
