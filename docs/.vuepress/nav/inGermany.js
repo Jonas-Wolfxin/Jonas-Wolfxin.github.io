@@ -1,5 +1,5 @@
 module.exports =  {
-  text: '人在德国', link: '/inGermany/',
+  text: '星河万里', link: '/inGermany/',
   items: [
     {
       text: '德国驾照B级',
@@ -8,12 +8,12 @@ module.exports =  {
         { text: '实践准备', link: '/pages/b79ef5/' }
       ]
     },
-    // {
-    //   text: '部署',
-    //   items: [
-    //     { text: 'Linux', link: '/linux/' },
-    //     { text: 'Docker', link: '/docker/' },
-    //   ]
-    // },
+    {
+      text: '星河万里',
+      items: [
+        { text: 'Vim操作', link: '/pages/bcf060/' },
+        { text: 'Gitemoji', link: '/pages/c11fcf/' },
+      ]
+    }
   ]
 }
