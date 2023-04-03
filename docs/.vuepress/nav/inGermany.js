@@ -13,6 +13,7 @@ module.exports =  {
       items: [
         { text: 'Vim操作', link: '/pages/bcf060/' },
         { text: 'Gitemoji', link: '/pages/c11fcf/' },
+        { text: '无妄经', link: '/pages/055f2e/' },
       ]
     }
   ]
