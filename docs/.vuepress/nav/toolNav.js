@@ -7,6 +7,7 @@ module.exports =  {
       items: [
         { text: 'CCNA知识', link: '/pages/91ab17/' },
         { text: 'CCNA题库', link: '/pages/55766c/' },
+        { text: 'CCNP题库', link: '/pages/2bd06e/' },
         { text: 'Cisco NetAca', link: '/pages/f61749/' },
       ]
     },
